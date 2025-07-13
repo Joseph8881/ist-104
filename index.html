@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+   <style>
+  div.mycontainer {width: 100%; overflow: auto;}
+  div.mycontainer div {width: 25%; float: left;}
+  body{background-color: bisque;}
+  </style>
+  <style>
+  .dropdown {position: relative; display: inline-block; padding: 0px 420px;}
+  .dropbtn { background-color:darkturquoise; color: rgba(22, 197, 197, 0.075);padding: 19px; font-size: 16px;} 
+  .dropdown-content {display:none; position: absolute; background-color: rgb(0, 0, 0); min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+  .dropdown-content a {color: blueviolet; padding: 10px 16px; text-decoration: none; display: block;}
+  .dropdown-content a:hover {background-color:aliceblue;}
+  .dropdown:hover .dropdown-content{display: block;}
+  .dropdown:hover .dropbtn { background-color: darkorange;}
+  </style>
+
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>www.thepointbeer.com</title> 
+    
 </head>
 <body>
-
-<header>
-<hi>it it is goog</h1> 
-<nav>
-  <ul>
-    <li> <a href="home">home</a></li>
-    <li> <a href="about">about</a></li>
-    <li> <a href="contact">contact</a></li>
-  </ul>  
-</nav>
-</header>
-<main>
-    <section>
-        <h2>home section</h2>
-        <p>this is home section</p>
-    </section>
-    <section>
-        <h3>about the section</h3>
-        <P> this an acticle</P>
-        <acticle>
-            <h4>the <article></article></h4>
-            <aside>they are here</aside>
-        </acticle>
-    </section>
-</main>
-</body>
+  <header style="width: 1350px; height: 110px;background-color: rgb(56, 0, 63);">
+    
+   <u> <h3 style="text-align: center; color: blueviolet;" >THE POINT <span style="color:mediumvioletred;">BEER</span> CORNER</h3></u>
+<div class="mycontainer"><nav>
+  <div><a href="m3.html">Order for Dishes</a></div><div>
+  <a href="Drinks.html" style="color: chartreuse;">Oder for Drinks</a> </div> <div>
+  <a href="water.html" style="color: darkgoldenrod;">Order for Water</a> </div>
+ <div> <a href="m2.html" style="color: aqua;">Oder for Fruits</a> </div>
+    </nav></div><p>
+     <div class="dropdown">
+    <button class="dropbtn" style="color: rgb(116, 0, 0);">Menu</button>
+    <div class="dropdown-content">
+      <a href="water.html">Water</a>
+      <a href="Drinks.html">Drinks</a>
+      <a href="m3.html">Dishes</a>
+      <a href="m2.html">Fruits</a>
+    </div>
+  </div>
+    </header>
+    <p>We serve you better</p>
+    <h4 style="text-align: center; color: brown;" > <srong> products <em>and</em> </srong>services:</h4>
+  
+<div class="mycontainer">
+    <div><p style="color: darkgoldenrod;">1.Water <br> 
+    <img src="hill.jpg"  width="70" usemap="#cokemap" height="90">
+    <map name="cokemap">
+<area shape="rect" coords="30,20,270,350" href="google.com">
+    </map></div>
+    <div><p style="color: chartreuse;">2.Drinks<br> 
+<img src="fanta.jpg" alt="fanta" width="100" height="100"> </div>
+    <div> <P style="color: blue;"> 3.Dishes <br>
+      <img src="fruit.jpg" alt="sprite" width="100" height="100"> 
+    </div> <div><P style="color: aqua;"> 4. Fruits <br>
+      <img src="banana.jpg" alt="squirt" width="70" height="100"> 
+    </div><div> 
+    <u style="color: darkgoldenrod"><a href="water.html">  Types of water </a></u>
+      <ol></ul><li>Hill</li><li>Envian</li><li>Roky</li><li>Mineral</li></ul></div><div>
+<U> <a href="Drinks.html" style="color: chartreuse;">Types of drinks</a></U><ol></ul><li>Coke</li><li>Fanta</li><li>Sprite</li><li>Squirt</li></ul></div><div>
+<U  <a href="m3.html" style="color: aqua;">Types of fruits</a></U><ul></ul><li>Banana</li><li>Melon</li><li>Pawpaw</li><li>Apple</li></ul></div><div>
+<U style="color: blue;">Types of dishes</U><ul></ul><li>Fresh Tilapia</li><li>Shawama</li><li>Rice</li><li>Vegetables</li></ul></div><div></div>
+</div> <hr style="color: chartreuse;"><br><p> 
+    <footer style="width: 1350px; height: 100px; ; background-color: brown;"><div class="mycontainer"><div>
+    Order for your :&nbsp;  <a href="water.html" style="color: brown;">Water</a>&nbsp;&nbsp;</div><div>  
+      <a href="Drinks.html" style="color: chartreuse;">Drinks </a>&nbsp;&nbsp; </div><div>
+       <a href="m3.html">Dishes </a>&nbsp;&nbsp; </div><div>
+        <a href="m2.html" style="color: aqua;">Fruits</a></div></div>
+     </p></footer> 
+<a href="https://www.google.com" style="padding: 0px 675px;">Google</a>
+ </body>
+ </html>
